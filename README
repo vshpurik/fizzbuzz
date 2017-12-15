@@ -18,9 +18,13 @@ Installation instructions
 Execution instructions
 ======================
 
-1. Start web server with the following command:
+Start web server with the following command:
    sbt run
-   
+
+Server will listen for http requests on port 9000. There are two valid URLs:
+1. localhost:9000
+2. localhost:9000/fizzbuzz/N - where N is any integer number
+
 Automated Tests
 ===============
 
