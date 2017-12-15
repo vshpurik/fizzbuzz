@@ -6,8 +6,8 @@ Installation instructions
 
 1. Install SBT from the following link: http://www.scala-sbt.org/download.html
 2. Clone source code for the FizzBuzz service from GitHub:
-   git clone git@github.com:vshpurik/kenzan.git
-3. From command line change directory to kenzan
+   git clone git@github.com:vshpurik/fizzbuzz.git
+3. From command line change directory to fizzbuzz
 4. Compile project with the following command:
    sbt compile
 5. Start web server with the following command:
