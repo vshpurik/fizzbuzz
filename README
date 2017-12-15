@@ -10,6 +10,24 @@ Installation instructions
 3. From command line change directory to fizzbuzz
 4. Compile project with the following command:
    sbt compile
-5. Start web server with the following command:
+5. To open project in eclipse, first generate ecplise progect configuration files:
+   sbt eclipse 
+ 
+   After that, start eclipse and open project from the fizzbuzz directory.
+
+Execution instructions
+======================
+
+1. Start web server with the following command:
    sbt run
+   
+Automated Tests
+===============
+
+There are three test classes to perform unit and integration testing. These classes are located in the test directory.
+Integration tests are located in the controllers test/controllers sub directory, and unit tests are located in the 
+test/models sub directory.
+
+To execute all tests, run the following command:
+sbt test
 
