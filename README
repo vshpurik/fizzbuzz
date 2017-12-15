@@ -25,7 +25,7 @@ Automated Tests
 ===============
 
 There are three test classes to perform unit and integration testing. These classes are located in the test directory.
-Integration tests are located in the controllers test/controllers sub directory, and unit tests are located in the 
+Integration tests are located in the test/controllers sub directory, and unit tests are located in the 
 test/models sub directory.
 
 To execute all tests, run the following command:
